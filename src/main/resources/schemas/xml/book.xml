@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Book xmlns="http:www.alan.com/schemas">
+    <Name>123456</Name>
+    <Auth>aaa</Auth>
+</Book>

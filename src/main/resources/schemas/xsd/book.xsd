@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns="http:www.alan.com/schemas"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http:www.alan.com/schemas"
+           elementFormDefault="qualified"
+>
+    <xs:element name="Book">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Name">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="5"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="Auth" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
