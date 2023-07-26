@@ -197,7 +197,7 @@ The SchemaGen can process either Java source files or class files to schemas.
         <configuration>
             <sources>
                 <source>src/main/resources/schemas/xsd</source>
-                <!--<source>src/main/java/com/alan/schemas/entity</source>-->
+                <!--<source>src/main/java/com/alan/entity/schemas</source>-->
             </sources>
             <noGeneratedHeaderComments>true</noGeneratedHeaderComments>
             <noPackageLevelAnnotations>true</noPackageLevelAnnotations>
